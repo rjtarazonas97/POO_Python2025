@@ -1,3 +1,6 @@
+from os import system
+system("cls")
+
 class Persona:
     def __init__(self, nombre, edad, nacionalidad):
         self.nombre = nombre
@@ -19,9 +22,9 @@ class Estudiante(Persona):
         self.notas = notas
         self.universidad = universidad
         
-class Persona
-    # def hablar(self):
-    #     print("NO")
+        
+        
+# herencia.py
 
 roberto = Empleado("Roberto", 30, "Peruano", "Ingeniero", 3000)
 
